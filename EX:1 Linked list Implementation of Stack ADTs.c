@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 struct node
 {
     int info;
@@ -112,7 +112,6 @@ void push(int data)
 void display()
 {
     top1 = top;
- 
     if (top1 == NULL)
     {
         printf("Stack is empty");
@@ -163,7 +162,7 @@ void empty()
 /* Destroy entire stack */
 void destroy()
 {
-    top1 = top;
+top1 = top;
  
     while (top1 != NULL)
     {
