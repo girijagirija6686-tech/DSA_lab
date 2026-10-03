@@ -72,3 +72,11 @@ printf("\nSorted array is \n");
 print_array(arra, arr_size);
 return 0;
 }
+OUTPUT:
+Given array is
+125 181 130 25 61 887
+
+Sorted array is
+25 61 125 130 181 887
+
+
